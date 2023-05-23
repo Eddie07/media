@@ -6,22 +6,21 @@
 
 **Contents:**
 
-[**1. Hardware connection**](#hw_conn)
+[**1. Hardware connection**](#1-hardware-connection)
 
-[**1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
+[**1.1 Hardware connection to Raspberry 40 pin extension.**](#hardware-connection-to-raspberry-40-pin-extension)
 
-[**1.2. Enable SPI, I2C and DTBO in Raspberry config.**](#config)
+[**1.2. Enable SPI, I2C and DTBO in Raspberry config.**](#12-enable-spi-i2c-and-dtbo-in-raspberry-config)
 
-[**1.3. Disable time synchronization on Raspberry.**](#sync_dis)
+[**1.3. Disable time synchronization on Raspberry.**](#13-disable-time-synchronization-on-raspberry)
 
-[**1.4. Module installation.**](#mod_inst)
+[**1.4. Module installation.**](#14_module_installation)
 
-[**1.5. Removing the module from memory**](#mod_rem)
+[**1.5. Removing the module from memory**](#15-remove-the-module-from-memory)
 
+[**2. User manual**](#user_manual)
 
-[**2. User manual**](#uman)
-
-[**2.1 Main functions**](#uman)
+[**2.1 Main functions**](#main_functions)
 
 [**2.1.1. Time**](#clock_time)
 
@@ -47,8 +46,6 @@
 
 ## 1. Hardware connection
 
-<a name="hw_conn">
-</a>
 
 ### Hardware connection to Raspberry 40 pin extension:
 
@@ -129,9 +126,6 @@ Pin2 -\> GPIO_17 (pin 11)
 
 &nbsp;
 
-<a name="config">
-</a>
-
 ### 1.2. Enable SPI, I2C and DTBO in Raspberry config:
 
 you can enable SPI, I2C from the **/boot/config.txt** file. Open a
@@ -147,8 +141,6 @@ the **\#** symbol. Do the same for **#dtparam=i2c=on** and
 time
 
 Reboot your Pi.
-<a name="sync_dis">
-</a>
 
 ### 1.3. Disable time synchronization on Raspberry.
 
@@ -160,9 +152,6 @@ We need to disable it, because time we use from rtc clock.
 `sudo systemctl stop systemd-timesyncd`
 
 `sudo systemctl disable systemd-timesyncd`
-
-<a name="mod_inst">
-</a>
 
 ### 1.4. Module installation
 
@@ -217,9 +206,6 @@ hardware name: probe failed. Check hardware connection or config.txt*
 is not activated or battery is too low, once you setup clock or alarm
 this will be fixed automatically.*
 
-<a name="mod_rem">
-</a>
-
 ### 1.5 Remove the module from memory
 
 Command:
@@ -243,10 +229,7 @@ if device is properly removed:
 
 ---
 
-<a name="uman">
-</a>
-
-##2. User manual
+## 2. User manual
 
 ### 2.1 Main functions:
 
