@@ -132,7 +132,7 @@ Pin2 -\> GPIO_17 (pin 11)
 <a name="config">
 </a>
 
-**2. Enable SPI, I2C and DTBO in Raspberry config:**
+**1.2. Enable SPI, I2C and DTBO in Raspberry config:**
 
 you can enable SPI, I2C from the **/boot/config.txt** file. Open a
 terminal window and enter:
@@ -150,7 +150,7 @@ Reboot your Pi.
 <a name="sync_dis">
 </a>
 
-**3. Disable time synchronization on Raspberry.**
+**1.3. Disable time synchronization on Raspberry.**
 
 By default, Raspberry is using time-synchronization service while
 connected to network.
@@ -164,7 +164,7 @@ We need to disable it, because time we use from rtc clock.
 <a name="mod_inst">
 </a>
 
-**4. Module installation**
+**1.44. Module installation**
 
 Building the Module as device-tree overlay:
 
@@ -220,7 +220,7 @@ this will be fixed automatically.*
 <a name="mod_rem">
 </a>
 
-**1. Remove the module from memory**
+**1.5 Remove the module from memory**
 
 Command:
 
@@ -241,10 +241,12 @@ if device is properly removed:
 
 `[smart_clock: module unloaded`
 
+---
+
 <a name="uman">
 </a>
 
-**1. User manual**
+**2. User manual**
 
 ** Main functions:**
 
@@ -285,7 +287,7 @@ entertainment part. Functions:**
 
 **2.1.1. Time**
 
-![](https://github.com/Eddie07/media/blob/main/blob/media/clock_24.png?raw=true)  |  ![](https://github.com/Eddie07/media/blob/main/blob/media/clock_am.png?raw=true)
+![](https://github.com/Eddie07/media/blob/main/blob/media/clock_24.png?raw=true)    ![](https://github.com/Eddie07/media/blob/main/blob/media/clock_am.png?raw=true)
 
 Hold the button longer than 1 sec to enter first view mode.
 
@@ -328,8 +330,7 @@ Switch to the next view **Alarm** press long press button.
 
 **2.1.3. Alarm**
 
-![](media/image9.tiff){width="2.8055555555555554in"
-height="2.2444444444444445in"}
+![](https://github.com/Eddie07/media/blob/main/blob/media/alarm.png?raw=true)
 
 The alarm can be turned on and off in **Options** view.
 
@@ -349,9 +350,8 @@ To switch the adjustments to the next part hold button long click
 *Once you finish the adjustments -- alarm values will be automatically
 stored in rtc.*
 
-![](media/image10.tiff){width="2.6006944444444446in"
-height="2.0805555555555557in"}![](media/image11.tiff){width="2.6006944444444446in"
-height="2.0805555555555557in"}**2.1.4. Temperature and air pressure.**
+![](https://github.com/Eddie07/media/blob/main/blob/media/temp_press.png?raw=true) ![](https://github.com/Eddie07/media/blob/main/blob/media/temp_f.png?raw=true)
+**2.1.4. Temperature and air pressure.**
 
 Temperature can be shown in C or F. Check **Options** for the option.
 
@@ -359,8 +359,7 @@ Switch the next view **Pedometer** press long-press button.
 
 **2.1.5. Pedometer.**
 
-![](media/image12.tiff){width="2.6006944444444446in"
-height="2.0805555555555557in"}
+![](https://github.com/Eddie07/media/blob/main/blob/media/pedometer.png?raw=true)
 
 Pedometer or Step meter shows steps (or vertical shakes) from the device
 start.
@@ -371,8 +370,7 @@ Switch the next view **Game** press long-press button.
 
 **2.1.6. Game**
 
-![](media/image13.tiff){width="2.5868055555555554in"
-height="2.0694444444444446in"}
+![](https://github.com/Eddie07/media/blob/main/blob/media/game.png?raw=true)
 
 Besides of pedometer the mpu6050 is also used for the control of the
 game "SNAKE".
@@ -389,8 +387,7 @@ Switch the next view **Options** press long-press button.
 
 **2.1.7. Options**
 
-![](media/image14.tiff){width="2.517361111111111in"
-height="2.013888888888889in"}
+![](https://github.com/Eddie07/media/blob/main/blob/media/options.png?raw=true)
 
 [Adjusting the options:]{.underline}
 
@@ -407,13 +404,13 @@ automatically stored in rtc.*
 
 Use terminal in your Raspberry to type the command:
 
-[cat dev/smart-clock]{.mark}
+`cat dev/smart-clock`
 
 to get file stream of bmp image of your current screen.
 
 Example:
 
-[cat dev/smart-clock \> screen.bmp]{.mark}
+`cat dev/smart-clock \> screen.bmp`
 
 will create new file screen.bmp with the screenshot from your device.
 
@@ -421,7 +418,7 @@ will create new file screen.bmp with the screenshot from your device.
 
 Use terminal in your Raspberry to print to device the command:
 
-[cat screen.bmp \> dev/smart-clock]{.mark}
+`cat screen.bmp \> dev/smart-clock`
 
 The file will be displayed on screen.
 
