@@ -302,7 +302,7 @@ In **Options** view.
 
 *Adjusting the time:*
 
-Use middle-long click to enter adjustments mode.
+Use middle-long button action to enter adjustments mode.
 
 Adjustment's part will be blinking. Press short the button to adjust.
 
@@ -325,10 +325,10 @@ Use long click to switch mode to next mode: **Timer**
 
 Timer can be **started and stopped** by short pressing of the button.
 
-**To reset** the timer -stop timer and use middle-long click.
+**To reset** the timer -stop timer and use middle-long button action.
 
 Timer can be **run in background** while view is switched. Use
-long-press while timer is running to switch the view while timer is
+long-press button action while timer is running to switch the view while timer is
 running in background. The notification of running timer will be shown
 in notification bar.
 
@@ -344,7 +344,7 @@ Switch to the next view **Alarm** press long press button.
 The alarm can be turned on and off in **Options** view.
 
 When Alarm is triggered the message "ALARM !!!" will appear blinking on
-screen, to exit- short press the button.
+screen, short press the button to disable it.
 
 *Adjusting the alarm*
 
@@ -352,7 +352,7 @@ Use middle-long click to enter adjustments mode.
 
 Adjustment's part will be blinking. Press short the button to adjust.
 
-To switch the adjustments to the next part hold button long click
+To switch the adjustments to the next part hold button long action
 
 1st adjustments will be minutes, 2nd -- hours
 
@@ -434,7 +434,7 @@ Example:
 
 `cat dev/smart-clock > screen.bmp`
 
-will create new file screen.bmp with the screenshot from your device.
+It will create new file screen.bmp with the screenshot from your device.
 
 <a name="clock_wbmp">
 </a>
