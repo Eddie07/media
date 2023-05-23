@@ -370,6 +370,9 @@ Temperature can be shown in C or F. Check **Options** for the option.
 
 Switch the next view **Pedometer** press long-press button.
 
+<a name="clock_pedom">
+</a>
+
 **2.1.5. Pedometer.**
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/pedometer.png?raw=true)
@@ -408,7 +411,7 @@ Switch the next view **Options** press long-press button.
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/options.png?raw=true)
 
-[Adjusting the options:]{.underline}
+*Adjusting the options:*
 
 Use middle-long click to enter adjustments mode.
 
