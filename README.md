@@ -7,7 +7,7 @@
 
 [**1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
 
-**1.2. Enable SPI, I2C and DTBO in Raspberry config.**
+[**1.2. Enable SPI, I2C and DTBO in Raspberry config.**](#config)
 
 **1.3. Disable time synchronization on Raspberry.**
 
@@ -65,7 +65,7 @@ RST -\> GPIO_24 (pin 18)
 
 GND -\> GROUND (pin 25)
 
-<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/bmp280_connection.png?raw=true" align="right" height="250" width="350" ></a>
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/bmp280_connection.png?raw=true" align="right" height="240" width="350" ></a>
 
 __Connect bmp280 sensor (I2C):__
 
@@ -76,6 +76,7 @@ GND -\> GROUND (pin 25)
 SCL -\> SCL1 i2c (pin 5)
 
 SDA -\> SDA1 i2c (pin 3)
+
 
 
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/mpu6050_connection.png?raw=true" align="right" height="250" width="350" ></a>
@@ -92,10 +93,11 @@ SDA -\> SDA1 i2c (pin 3)
 
 AD0 -\> 3,3v (pin 1)
 
-4\) rtc3231 (w/o eeprom) (I2C):
 
-![](media/image4.png){width="4.00625in" height="3.3194444444444446in"}+
--\> 3,3v (pin 1)
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/rtc3231_connection.png?raw=true" align="right" height="250" width="350" ></a>
+__Connect rtc3231 (w/o eeprom) (I2C):__
+
++ -\> 3,3v (pin 1)
 
 \- -\> GROUND (pin 25)
 
@@ -103,13 +105,15 @@ C -\> SCL1 i2c (pin 5)
 
 D -\> SDA1 i2c (pin 3)
 
-5\) Connect hardware button (2 pin):
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/button_connection.png?raw=true" align="right" height="250" width="350" ></a>
+__Connect hardware button (2 pin):__
 
 Pin1 -\> 3,3v (pin 1)
 
-![](media/image5.png){width="3.9106463254593176in"
-height="2.8333333333333335in"}Pin2 -\> GPIO_17 (pin 11)
+Pin2 -\> GPIO_17 (pin 11)
 
+<a name="config">
+</a>
 2.  **Enable SPI, I2C and DTBO in Raspberry config:**
 
 you can enable SPI, I2C from the **/boot/config.txt** file. Open a
