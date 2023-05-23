@@ -185,7 +185,9 @@ Command:
 Check kernel log if device is properly booted:
 
 >smart_clock: smart_clock: Major = 238 Minor = 0
+
 >smart_clock: gpio_button: found gpio #17 value in DT
+
 >smart_clock: st7735fb: init
 >smart_clock: st7735fb: probe started
 >st7735fb spi0.0: SPI ok
