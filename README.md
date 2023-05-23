@@ -185,18 +185,18 @@ Command:
 Check kernel log if device is properly booted:
 
 >smart_clock: smart_clock: Major = 238 Minor = 0
-smart_clock: gpio_button: found gpio #17 value in DT
-smart_clock: st7735fb: init
-smart_clock: st7735fb: probe started
-st7735fb spi0.0: SPI ok
-smart_clock: st7735fb: Total vm initialized 40960
-smart_clock: bmp280: probing
-smart_clock: bmp280: probed
-smart_clock: ds3231: probing
-smart_clock: ds3231: probed
-smart_clock: ds3231: set time of the day from RTC result 0
-smart_clock: mpu6050: probing
-smart_clock: mpu6050: probed
+>smart_clock: gpio_button: found gpio #17 value in DT
+>smart_clock: st7735fb: init
+>smart_clock: st7735fb: probe started
+>st7735fb spi0.0: SPI ok
+>smart_clock: st7735fb: Total vm initialized 40960
+>smart_clock: bmp280: probing
+>smart_clock: bmp280: probed
+>smart_clock: ds3231: probing
+>smart_clock: ds3231: probed
+>smart_clock: ds3231: set time of the day from RTC result 0
+>smart_clock: mpu6050: probing
+>smart_clock: mpu6050: probed
 
 *if some of devices will fail to start, you will get the message with
 hardware name: probe failed. Check hardware connection or config.txt*
