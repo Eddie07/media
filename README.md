@@ -102,9 +102,9 @@ AD0 -\> 3,3v (pin 1)
 __Connect rtc3231 (w/o eeprom) (I2C):__
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/rtc3231_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
-+ -\> 3,3v (pin 1)
+\+   -\> 3,3v (pin 1)
 
-\- -\> GROUND (pin 25)
+\-  -\> GROUND (pin 25)
 
 C -\> SCL1 i2c (pin 5)
 
@@ -120,12 +120,14 @@ Pin2 -\> GPIO_17 (pin 11)
 
 <a name="config">
 </a>
+
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
 &nbsp;
+
 **2. Enable SPI, I2C and DTBO in Raspberry config:**
 
 you can enable SPI, I2C from the **/boot/config.txt** file. Open a
