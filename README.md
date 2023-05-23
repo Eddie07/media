@@ -9,7 +9,7 @@
 
 [**1.2. Enable SPI, I2C and DTBO in Raspberry config.**](#config)
 
-**1.3. Disable time synchronization on Raspberry.**
+[**1.3. Disable time synchronization on Raspberry.**](#sync_dis)
 
 **1.4. Module installation.**
 
@@ -121,12 +121,12 @@ Pin2 -\> GPIO_17 (pin 11)
 
 <a name="config">
 </a>
-2.  **Enable SPI, I2C and DTBO in Raspberry config:**
+**2. Enable SPI, I2C and DTBO in Raspberry config:**
 
 you can enable SPI, I2C from the **/boot/config.txt** file. Open a
 terminal window and enter:
 
-sudo nano /boot/config.txt
+`sudo nano /boot/config.txt`
 
 Look for a line that reads **#dtparam=spi=on** and remove
 the **\#** symbol. Do the same for **#dtparam=i2c=on** and
@@ -136,8 +136,9 @@ the **\#** symbol. Do the same for **#dtparam=i2c=on** and
 time
 
 Reboot your Pi.
-
-3.  **Disable time synchronization on Raspberry.**
+<a name="sync_dis">
+</a>
+**3. Disable time synchronization on Raspberry.**
 
 By default, Raspberry is using time-synchronization service while
 connected to network.
