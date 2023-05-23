@@ -362,8 +362,9 @@ stored in rtc.*
 <a name="clock_tp">
 </a>
 
-![](https://github.com/Eddie07/media/blob/main/blob/media/temp_press.png?raw=true) ![](https://github.com/Eddie07/media/blob/main/blob/media/temp_f.png?raw=true)
 **2.1.4. Temperature and air pressure.**
+
+![](https://github.com/Eddie07/media/blob/main/blob/media/temp_press.png?raw=true) ![](https://github.com/Eddie07/media/blob/main/blob/media/temp_f.png?raw=true)
 
 Temperature can be shown in C or F. Check **Options** for the option.
 
@@ -384,6 +385,7 @@ Switch the next view **Game** press long-press button.
 </a>
 
 **2.1.6. Game**
+
 ![](https://github.com/Eddie07/media/blob/main/blob/media/game.png?raw=true)
 
 Besides of pedometer the mpu6050 is also used for the control of the
@@ -403,6 +405,7 @@ Switch the next view **Options** press long-press button.
 </a>
 
 **2.1.7. Options**
+
 ![](https://github.com/Eddie07/media/blob/main/blob/media/options.png?raw=true)
 
 [Adjusting the options:]{.underline}
