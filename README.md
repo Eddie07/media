@@ -77,9 +77,8 @@ SCL -\> SCL1 i2c (pin 5)
 
 SDA -\> SDA1 i2c (pin 3)
 
-
-
-
+&nbsp;
+&nbsp;
 
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/mpu6050_connection.png?raw=true" align="right" height="250" width="350" ></a>
 __Connect mpu6050 sensor (I2C):__
