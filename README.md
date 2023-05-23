@@ -1,8 +1,8 @@
 <h2 style="text-align: center;">SMART-CLOCK</h2>					
 
-##Kernel device manual##
+**Kernel device manual**
 
-#Contents:#
+**Contents:*
 
 
 [**1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
@@ -18,7 +18,7 @@
 
 **2. User manual**
 
-    1.  **Main functions**
+**2.1 Main functions**
 
 **2.1.1. Time**
 
@@ -43,8 +43,8 @@
 **1.Device installation**
 
 <a name="hw_conn">
-**Hardware connection to Raspberry 40 pin extension:**
 </a>
+**Hardware connection to Raspberry 40 pin extension:**
 
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/display_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
