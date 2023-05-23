@@ -1,8 +1,8 @@
 <h2 style="text-align: center;">SMART-CLOCK</h2>					
 
-##Kernel device manual
+##Kernel device manual##
 
-#Contents:
+#Contents:#
 
 
 [**1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
