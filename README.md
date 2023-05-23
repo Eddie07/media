@@ -14,27 +14,27 @@
 
 [**1.3. Disable time synchronization on Raspberry.**](#13-disable-time-synchronization-on-raspberry)
 
-[**1.4. Module installation.**](#14_module_installation)
+[**1.4. Module installation.**](#14-module-installation)
 
 [**1.5. Removing the module from memory**](#15-remove-the-module-from-memory)
 
-[**2. User manual**](#2_user_manual)
+[**2. User manual**](#2-user-manual)
 
-[**2.1 Main functions**](#21_main_functions)
+[**2.1 Main functions**](#21-main-functions)
 
-[**2.1.1. Time**](#211_time)
+[**2.1.1. Time**](#211-time)
 
-[**2.1.2. Timer**](#212_timer)
+[**2.1.2. Timer**](#212-timer)
 
-[**2.1.3. Alarm**](#213_alarm)
+[**2.1.3. Alarm**](#213-alarm)
 
 [**2.1.4. Temperature and Pressure**](#214-temperature-and-air-pressure)
 
-[**2.1.5. Pedometer**](#215_pedometer)
+[**2.1.5. Pedometer**](#215-pedometer)
 
-[**2.1.6. Game**](#216_game)
+[**2.1.6. Game**](#216-game)
 
-[**2.1.7. Options**](#217_options)
+[**2.1.7. Options**](#217-options)
 
 [**2.1.8. Making of screenshots**](#218-making-of-screenshot-bmp-format)
 
