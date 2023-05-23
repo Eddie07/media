@@ -2,6 +2,8 @@
 
 **Kernel device manual**
 
+---
+
 **Contents:**
 
 **1.Hardware connection**
@@ -17,29 +19,31 @@
 [**1.5. Removing the module from memory**](#mod_rem)
 
 
-**2. User manual**
+[**2. User manual**](#uman)
 
-**2.1 Main functions**
+[**2.1 Main functions**](#uman)
 
-**2.1.1. Time**
+[**2.1.1. Time**](#clock_time)
 
-**2.1.2. Timer**
+[**2.1.2. Timer**](#clock_timer)
 
-**2.1.3. Alarm**
+[**2.1.3. Alarm**](#clock_alarm)
 
-**2.1.4. Temperature and Pressure**
+[**2.1.4. Temperature and Pressure**](#clock_tp)
 
-**2.1.5. Pedometer**
+[**2.1.5. Pedometer**](#clock_pedom)
 
-**2.1.6. Game**
+[**2.1.6. Game**](#clock_game)
 
-**2.1.7. Options**
+[**2.1.7. Options**](#clock_options)
 
-**2.1.8. Making of screenshots**
+[**2.1.8. Making of screenshots**](#clock_sh)
 
-**2.1.9. Display BMP files**
+[**2.1.9. Display BMP files**](#clock_vbmp)
 
-**2.1.10. Notifications bar**
+[**2.1.10. Notifications bar**](#clock_rbmp)
+
+---
 
 **1.Device installation**
 
@@ -237,6 +241,9 @@ if device is properly removed:
 
 `[smart_clock: module unloaded`
 
+<a name="uman">
+</a>
+
 **1. User manual**
 
 ** Main functions:**
@@ -278,7 +285,7 @@ entertainment part. Functions:**
 
 **2.1.1. Time**
 
-![](https://github.com/Eddie07/media/blob/main/blob/media/clock24.png?raw=true)  |  ![](https://github.com/Eddie07/media/blob/main/blob/media/clock_am.png?raw=true)
+![](https://github.com/Eddie07/media/blob/main/blob/media/clock_24.png?raw=true)  |  ![](https://github.com/Eddie07/media/blob/main/blob/media/clock_am.png?raw=true)
 
 Hold the button longer than 1 sec to enter first view mode.
 
@@ -306,8 +313,7 @@ Use long click to switch mode to next mode: **Timer**
 
 **2.1.2. Timer**
 
-![](media/image8.tiff){width="2.7118055555555554in"
-height="2.1694444444444443in"}
+![](https://github.com/Eddie07/media/blob/main/blob/media/timer.png?raw=true) 
 
 Timer can be **started and stopped** by short pressing of the button.
 
