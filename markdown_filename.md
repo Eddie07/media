@@ -1,4 +1,4 @@
-**SMART-CLOCK v1**
+					**SMART-CLOCK v1**
 
 **Kernel device manual**
 
@@ -44,8 +44,9 @@
 
 1.  **Hardware connection to Raspberry 40 pin extension:**
 
-![](https://github.com/Eddie07/media/blob/main/blob/display_connection.png?raw=true){width="3.736111111111111in"
-height="2.7017333770778653in"}1) Connect TFT Module (SPI):
+
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/display_connection.png?raw=true" align="left" height="48" width="48" ></a>
+__Connect TFT Module (SPI):__
 
 VDD3.3-\> 3,3v (pin 1)
 
