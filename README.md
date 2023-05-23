@@ -6,7 +6,7 @@
 
 **Contents:**
 
-**1.Hardware connection**
+[**1. Hardware connection**](#hw_conn)
 
 [**1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
 
@@ -41,11 +41,11 @@
 
 [**2.1.9. Display BMP files**](#clock_vbmp)
 
-[**2.1.10. Notifications bar**](#clock_rbmp)
+[**2.1.10. Notifications bar**](#clock_notif)
 
 ---
 
-**1.Device installation**
+**1. Hardware connection**
 
 <a name="hw_conn">
 </a>
@@ -224,7 +224,7 @@ this will be fixed automatically.*
 
 Command:
 
-`[sudo rmmod smart_clock.ko`
+`sudo rmmod smart_clock.ko`
 
 module will be removed when the last timer is stopped. Check kernel log
 if device is properly removed:
@@ -285,6 +285,9 @@ entertainment part. Functions:**
 
 -long click (Press and hold longer than 1 sec)
 
+<a name="clock_time">
+</a>
+
 **2.1.1. Time**
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/clock_24.png?raw=true)    ![](https://github.com/Eddie07/media/blob/main/blob/media/clock_am.png?raw=true)
@@ -313,6 +316,9 @@ stored in rtc.*
 
 Use long click to switch mode to next mode: **Timer**
 
+<a name="clock_timer">
+</a>
+
 **2.1.2. Timer**
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/timer.png?raw=true) 
@@ -327,6 +333,9 @@ running in background. The notification of running timer will be shown
 in notification bar.
 
 Switch to the next view **Alarm** press long press button.
+
+<a name="clock_alarm">
+</a>
 
 **2.1.3. Alarm**
 
@@ -350,6 +359,9 @@ To switch the adjustments to the next part hold button long click
 *Once you finish the adjustments -- alarm values will be automatically
 stored in rtc.*
 
+<a name="clock_tp">
+</a>
+
 ![](https://github.com/Eddie07/media/blob/main/blob/media/temp_press.png?raw=true) ![](https://github.com/Eddie07/media/blob/main/blob/media/temp_f.png?raw=true)
 **2.1.4. Temperature and air pressure.**
 
@@ -368,8 +380,10 @@ To reset the pedometer short press the button.
 
 Switch the next view **Game** press long-press button.
 
-**2.1.6. Game**
+<a name="clock_game">
+</a>
 
+**2.1.6. Game**
 ![](https://github.com/Eddie07/media/blob/main/blob/media/game.png?raw=true)
 
 Besides of pedometer the mpu6050 is also used for the control of the
@@ -385,8 +399,10 @@ To Restart game short press the button.
 
 Switch the next view **Options** press long-press button.
 
-**2.1.7. Options**
+<a name="clock_options">
+</a>
 
+**2.1.7. Options**
 ![](https://github.com/Eddie07/media/blob/main/blob/media/options.png?raw=true)
 
 [Adjusting the options:]{.underline}
@@ -399,6 +415,9 @@ To switch the adjustments to the next part hold button long click
 
 *Note: Once you finish the adjustments -- alarm values will be
 automatically stored in rtc.*
+
+<a name="clock_rbmp">
+</a>
 
 **2.1.8. Making of screenshot (BMP format)**
 
@@ -414,6 +433,9 @@ Example:
 
 will create new file screen.bmp with the screenshot from your device.
 
+<a name="clock_wbmp">
+</a>
+
 **2.1.9. Display BMP files.**
 
 Use terminal in your Raspberry to print to device the command:
@@ -424,6 +446,9 @@ The file will be displayed on screen.
 
 *Note: Only files with resolution less than 160x128 are supported.
 Otherwise, you will receive the error message.*
+
+<a name="clock_notif">
+</a>
 
 **2.1.9. Notifications bar.**
 
