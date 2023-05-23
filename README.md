@@ -432,7 +432,7 @@ to get file stream of bmp image of your current screen.
 
 Example:
 
-`cat dev/smart-clock \> screen.bmp`
+`cat dev/smart-clock > screen.bmp`
 
 will create new file screen.bmp with the screenshot from your device.
 
@@ -443,7 +443,7 @@ will create new file screen.bmp with the screenshot from your device.
 
 Use terminal in your Raspberry to print to device the command:
 
-`cat screen.bmp \> dev/smart-clock`
+`cat screen.bmp > dev/smart-clock`
 
 The file will be displayed on screen.
 
@@ -455,8 +455,11 @@ Otherwise, you will receive the error message.*
 
 **2.1.9. Notifications bar.**
 
+![](https://github.com/Eddie07/media/blob/main/blob/media/notif.png?raw=true)
+
 When alarm is enabled in options -- the icon "Alarm" will be shown is
 notification bar on screen.
 
 When timer is running in background -- the icon "Clock" will be blinking
 in notification bar on screen.
+---
