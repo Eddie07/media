@@ -1,20 +1,20 @@
-<h1 style="text-align: center;">**SMART-CLOCK v1**</h1>					
+<h2 style="text-align: center;">SMART-CLOCK**</h2>					
 
 **Kernel device manual**
 
 **Contents:**
 
-1.  **Device installation.**
+**1.  Device installation.**
 
-    1.  **Hardware connection to Raspberry 40 pin extension.**
+    **1. Hardware connection to Raspberry 40 pin extension.**
 
-    2.  **Enable SPI, I2C and DTBO in Raspberry config.**
+    **2.  Enable SPI, I2C and DTBO in Raspberry config.**
 
-    3.  **Disable time synchronization on Raspberry.**
+    **3.  Disable time synchronization on Raspberry.**
 
-    4.  **Module installation.**
+    **4.  Module installation.**
 
-    5.  **Removing the module from memory**
+    **5.  Removing the module from memory**
 
 2.  **User manual**
 
@@ -44,7 +44,7 @@
 
 1.  **Hardware connection to Raspberry 40 pin extension:**
 
-<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/display_connection.png?raw=true" align="right" height="500" width="350" ></a>
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/display_connection.png?raw=true" align="right" height="300" width="350" ></a>
 
 __Connect TFT Module (SPI):__
 
@@ -62,8 +62,9 @@ RST -\> GPIO_24 (pin 18)
 
 GND -\> GROUND (pin 25)
 
-![](media/image2.png){width="3.725in" height="2.9231463254593177in"}2)
-Connect bmp280 sensor (I2C):
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/bmp280_connection.png?raw=true" align="right" height="300" width="350" ></a>
+
+__Connect bmp280 sensor (I2C):__
 
 VIN -\> 3,3v (pin 1)
 
@@ -73,8 +74,9 @@ SCL -\> SCL1 i2c (pin 5)
 
 SDA -\> SDA1 i2c (pin 3)
 
-![](media/image3.png){width="4.044834864391951in"
-height="2.9305555555555554in"}3) Connect mpu6050 sensor (I2C):
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/mpu6050_connection.png?raw=true" align="right" height="300" width="350" ></a>
+
+__Connect mpu6050 sensor (I2C):__
 
 VCC-\> 3,3v (pin 1)
 
