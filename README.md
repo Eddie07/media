@@ -300,7 +300,7 @@ Clock view can be customized by showing time in format 24h or AM/PM
 
 In **Options** view.
 
-[Adjusting the time:]{.underline}
+*Adjusting the time:*
 
 Use middle-long click to enter adjustments mode.
 
@@ -308,10 +308,10 @@ Adjustment's part will be blinking. Press short the button to adjust.
 
 To switch the adjustments to the next part hold button long click
 
-1^st^ adjustments will be minutes, 2^nd^ -- hours, 3^rd^ day of the
-month, 4^th^ the month, 5^th^ year (year is capped to 2050)
+1st adjustments will be minutes, 2nd - hours, 3rd day of the
+month, 4th the month, 5th year (year is capped to 2050)
 
-*Once you finish the adjustments -- clock value will be automatically
+*Once you finish the adjustments - clock value will be automatically
 stored in rtc.*
 
 Use long click to switch mode to next mode: **Timer**
@@ -346,7 +346,7 @@ The alarm can be turned on and off in **Options** view.
 When Alarm is triggered the message "ALARM !!!" will appear blinking on
 screen, to exit- short press the button.
 
-[Adjusting the alarm:]{.underline}
+*Adjusting the alarm*
 
 Use middle-long click to enter adjustments mode.
 
@@ -354,7 +354,7 @@ Adjustment's part will be blinking. Press short the button to adjust.
 
 To switch the adjustments to the next part hold button long click
 
-1^st^ adjustments will be minutes, 2^nd^ -- hours
+1st adjustments will be minutes, 2nd -- hours
 
 *Once you finish the adjustments -- alarm values will be automatically
 stored in rtc.*
@@ -462,4 +462,5 @@ notification bar on screen.
 
 When timer is running in background -- the icon "Clock" will be blinking
 in notification bar on screen.
+
 ---
