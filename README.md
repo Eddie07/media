@@ -5,6 +5,7 @@
 **Contents:**
 
 **1.Hardware connection**
+
 [**1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
 
 [**1.2. Enable SPI, I2C and DTBO in Raspberry config.**](#config)
@@ -108,10 +109,8 @@ __Connect rtc3231 (w/o eeprom) (I2C):__
 C -\> SCL1 i2c (pin 5)
 
 D -\> SDA1 i2c (pin 3)
-
 &nbsp;
 &nbsp;
-
 __Connect hardware button (2 pin):__
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/button_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
@@ -121,7 +120,12 @@ Pin2 -\> GPIO_17 (pin 11)
 
 <a name="config">
 </a>
-
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 **2. Enable SPI, I2C and DTBO in Raspberry config:**
 
 you can enable SPI, I2C from the **/boot/config.txt** file. Open a
@@ -139,6 +143,7 @@ time
 Reboot your Pi.
 <a name="sync_dis">
 </a>
+
 **3. Disable time synchronization on Raspberry.**
 
 By default, Raspberry is using time-synchronization service while
@@ -146,8 +151,8 @@ connected to network.
 
 We need to disable it, because time we use from rtc clock.
 
-[sudo systemctl stop systemd-timesyncd\
-sudo systemctl disable systemd-timesyncd]{.mark}
+`sudo systemctl stop systemd-timesyncd`
+`sudo systemctl disable systemd-timesyncd`
 
 4.  **Module installation**
 
