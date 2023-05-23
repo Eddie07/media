@@ -252,7 +252,7 @@ entertainment part. Functions:
 
 -Display BMP files (2.1.7)
 
-#### Customization is also possible through options:**
+#### Customization is also possible through options:
 
 -24h or AM/PM
 
@@ -260,7 +260,7 @@ entertainment part. Functions:
 
 -Enable or disable the Alarm
 
-#### Functions are controlled by one button:**
+#### Functions are controlled by one button:
 
 -click (Short press)
 
