@@ -164,25 +164,25 @@ We need to disable it, because time we use from rtc clock.
 <a name="mod_inst">
 </a>
 
-**1.44. Module installation**
+**1.4. Module installation**
 
-Building the Module as device-tree overlay:
+Building the Module and device-tree overlay:
 
 1)  make \[KDIR=\[Path to your linux kernel\]\]
 
-2)  The module is compiled to **smart_clock.ko**
+2)  The module will be compiled to **smart_clock.ko**
 
 3)  The device tree overlay will be compiled to **smart_clock.dtbo**
 
 4)  Copy **smart_clock.dtbo** to boot/overlays directory to the device
 
-Inserting into your kernel:
+5)  Inserting into your kernel:
 
-Command:
+Type command in terminal:
 
 `sudo insmod smart_clock.ko`
 
-Check kernel log if device is properly booted:
+After check kernel log if device is properly booted:
 
 >smart_clock: smart_clock: Major = 238 Minor = 0
 
