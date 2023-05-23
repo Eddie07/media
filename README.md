@@ -77,8 +77,6 @@ SCL -\> SCL1 i2c (pin 5)
 
 SDA -\> SDA1 i2c (pin 3)
 
-` `  
-` ` 
 __Connect mpu6050 sensor (I2C):__
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/mpu6050_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
@@ -92,9 +90,8 @@ SDA -\> SDA1 i2c (pin 3)
 
 AD0 -\> 3,3v (pin 1)
 
-
-<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/rtc3231_connection.png?raw=true" align="right" height="250" width="350" ></a>
 __Connect rtc3231 (w/o eeprom) (I2C):__
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/rtc3231_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
 + -\> 3,3v (pin 1)
 
@@ -104,8 +101,8 @@ C -\> SCL1 i2c (pin 5)
 
 D -\> SDA1 i2c (pin 3)
 
-<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/button_connection.png?raw=true" align="right" height="250" width="350" ></a>
 __Connect hardware button (2 pin):__
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/button_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
 Pin1 -\> 3,3v (pin 1)
 
