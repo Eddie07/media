@@ -1,11 +1,9 @@
 <h2 style="text-align: center;">SMART-CLOCK</h2>					
 
-**Kernel device manual**
+##Kernel device manual
 
-**Contents:**
+#Contents:
 
-
-[Specificat](#specification) 
 
 [**1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
 
@@ -17,35 +15,35 @@
 
 **1.5. Removing the module from memory**
 
-## Specification
-2.  **User manual**
+
+**2. User manual**
 
     1.  **Main functions**
 
-**2.1.1.Time**
+**2.1.1. Time**
 
-**2.1.2.Timer**
+**2.1.2. Timer**
 
-**2.1.3.Alarm**
+**2.1.3. Alarm**
 
-**2.1.4.Temperature and Pressure**
+**2.1.4. Temperature and Pressure**
 
-**2.1.5.Pedometer**
+**2.1.5. Pedometer**
 
-**2.1.6.Game**
+**2.1.6. Game**
 
-**2.1.7.Options**
+**2.1.7. Options**
 
-**2.1.8.Making of screenshots**
+**2.1.8. Making of screenshots**
 
-**2.1.9.Display BMP files**
+**2.1.9. Display BMP files**
 
-**2.1.10.Notifications bar**
+**2.1.10. Notifications bar**
 
 **1.Device installation**
 
 <a name="hw_conn">
-1.  **Hardware connection to Raspberry 40 pin extension:**
+**Hardware connection to Raspberry 40 pin extension:**
 </a>
 
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/display_connection.png?raw=true" align="right" height="250" width="350" ></a>
