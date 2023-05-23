@@ -4,7 +4,7 @@
 
 **Contents:**
 
-
+**1.Hardware connection**
 [**1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
 
 [**1.2. Enable SPI, I2C and DTBO in Raspberry config.**](#config)
@@ -121,6 +121,7 @@ Pin2 -\> GPIO_17 (pin 11)
 
 <a name="config">
 </a>
+
 **2. Enable SPI, I2C and DTBO in Raspberry config:**
 
 you can enable SPI, I2C from the **/boot/config.txt** file. Open a
