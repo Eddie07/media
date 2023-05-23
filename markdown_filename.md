@@ -44,8 +44,8 @@
 
 1.  **Hardware connection to Raspberry 40 pin extension:**
 
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/display_connection.png?raw=true" align="right" height="400" width="400" ></a>
 
-<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/display_connection.png?raw=true" align="left" height="48" width="48" ></a>
 __Connect TFT Module (SPI):__
 
 VDD3.3-\> 3,3v (pin 1)
