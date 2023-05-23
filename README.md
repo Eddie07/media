@@ -109,8 +109,11 @@ __Connect rtc3231 (w/o eeprom) (I2C):__
 C -\> SCL1 i2c (pin 5)
 
 D -\> SDA1 i2c (pin 3)
+
 &nbsp;
+
 &nbsp;
+
 __Connect hardware button (2 pin):__
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/button_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
@@ -122,7 +125,9 @@ Pin2 -\> GPIO_17 (pin 11)
 </a>
 
 &nbsp;
+
 &nbsp;
+
 &nbsp;
 &nbsp;
 &nbsp;
