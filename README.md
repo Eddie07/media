@@ -6,11 +6,11 @@
 
 **Contents:**
 
-[### 1. Hardware connection](#hw_conn)
+[**1. Hardware connection**](#hw_conn)
 
-[## 1.1 Hardware connection to Raspberry 40 pin extension.](#hw_conn)
+[**1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
 
-[# 1.2. Enable SPI, I2C and DTBO in Raspberry config.](#config)
+[**1.2. Enable SPI, I2C and DTBO in Raspberry config.**](#config)
 
 [**1.3. Disable time synchronization on Raspberry.**](#sync_dis)
 
@@ -45,12 +45,12 @@
 
 ---
 
-**1. Hardware connection**
+## 1. Hardware connection
 
 <a name="hw_conn">
 </a>
 
-**Hardware connection to Raspberry 40 pin extension:**
+### Hardware connection to Raspberry 40 pin extension:
 
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/display_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
