@@ -6,11 +6,11 @@
 
 **Contents:**
 
-[###1. Hardware connection**](#hw_conn)
+[### 1. Hardware connection](#hw_conn)
 
-[##1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
+[## 1.1 Hardware connection to Raspberry 40 pin extension.](#hw_conn)
 
-[#1.2. Enable SPI, I2C and DTBO in Raspberry config.**](#config)
+[# 1.2. Enable SPI, I2C and DTBO in Raspberry config.](#config)
 
 [**1.3. Disable time synchronization on Raspberry.**](#sync_dis)
 
