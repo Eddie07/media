@@ -1,44 +1,46 @@
-<h2 style="text-align: center;">SMART-CLOCK**</h2>					
+<h2 style="text-align: center;">SMART-CLOCK</h2>					
 
 **Kernel device manual**
 
 **Contents:**
 
-**1.  Device installation.**
 
-*1.1 Hardware connection to Raspberry 40 pin extension.*
+[Specification](#specification) 
 
-*1.2.  Enable SPI, I2C and DTBO in Raspberry config.*
+**1.1 Hardware connection to Raspberry 40 pin extension.**
 
-*1.3.  Disable time synchronization on Raspberry.*
+**1.2. Enable SPI, I2C and DTBO in Raspberry config.**
 
-*1.4.  Module installation.*
+**1.3. Disable time synchronization on Raspberry.**
 
-    **5.  Removing the module from memory**
+**1.4. Module installation.**
 
+**1.5. Removing the module from memory**
+
+## Specification
 2.  **User manual**
 
     1.  **Main functions**
 
-**2.1.1. Time**
+**2.1.1.Time**
 
-**2.1.2. Timer**
+**2.1.2.Timer**
 
-**2.1.3. Alarm**
+**2.1.3.Alarm**
 
-**2.1.4. Temperature and Pressure**
+**2.1.4.Temperature and Pressure**
 
-**2.1.5. Pedometer**
+**2.1.5.Pedometer**
 
-**2.1.6. Game**
+**2.1.6.Game**
 
-**2.1.7. Options**
+**2.1.7.Options**
 
-**2.1.8. Making of screenshots**
+**2.1.8.Making of screenshots**
 
-**2.1.9. Display BMP files**
+**2.1.9.Display BMP files**
 
-**2.1.10. Notifications bar**
+**2.1.10.Notifications bar**
 
 **1.Device installation**
 
