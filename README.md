@@ -159,6 +159,7 @@ We need to disable it, because time we use from rtc clock.
 
 <a name="mod_inst">
 </a>
+
 **4. Module installation**
 
 Building the Module as device-tree overlay:
@@ -214,30 +215,31 @@ this will be fixed automatically.*
 
 <a name="mod_rem">
 </a>
-1.  **Remove the module from memory**
+
+**1. Remove the module from memory**
 
 Command:
 
-[sudo rmmod smart_clock.ko]{.mark}
+`[sudo rmmod smart_clock.ko`
 
 module will be removed when the last timer is stopped. Check kernel log
 if device is properly removed:
 
-[smart_clock: controls unloaded]{.mark}
+`smart_clock: controls unloaded`
 
-[smart_clock: sensors unloaded]{.mark}
+`smart_clock: sensors unloaded`
 
-[smart_clock: gpio_button: device exit]{.mark}
+`smart_clock: gpio_button: device exit`
 
-[smart_clock: st7735fb: exiting]{.mark}
+`smart_clock: st7735fb: exiting`
 
-[smart_clock: st7735fb: unloaded]{.mark}
+`smart_clock: st7735fb: unloaded`
 
-[smart_clock: module unloaded]{.mark}
+`[smart_clock: module unloaded`
 
-2.  **User manual**
+**1. User manual**
 
-    1.  **Main functions:**
+** Main functions:**
 
 **Smart clock is designed to work as simple smart-watch with
 entertainment part. Functions:**
@@ -276,9 +278,7 @@ entertainment part. Functions:**
 
 **2.1.1. Time**
 
-![](media/image6.tiff){width="2.611111111111111in"
-height="2.088888888888889in"}![](media/image7.tiff){width="2.5972222222222223in"
-height="2.077777777777778in"}
+![](https://github.com/Eddie07/media/blob/main/blob/media/clock24.tiff?raw=true)  |  ![](https://github.com/Eddie07/media/blob/main/blob/media/clock_am.tiff?raw=true)
 
 Hold the button longer than 1 sec to enter first view mode.
 
