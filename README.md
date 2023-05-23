@@ -189,15 +189,25 @@ Check kernel log if device is properly booted:
 >smart_clock: gpio_button: found gpio #17 value in DT
 
 >smart_clock: st7735fb: init
+
 >smart_clock: st7735fb: probe started
+
 >st7735fb spi0.0: SPI ok
+
 >smart_clock: st7735fb: Total vm initialized 40960
+
 >smart_clock: bmp280: probing
+
 >smart_clock: bmp280: probed
+
 >smart_clock: ds3231: probing
+
 >smart_clock: ds3231: probed
+
 >smart_clock: ds3231: set time of the day from RTC result 0
+
 >smart_clock: mpu6050: probing
+
 >smart_clock: mpu6050: probed
 
 *if some of devices will fail to start, you will get the message with
@@ -219,17 +229,17 @@ Command:
 module will be removed when the last timer is stopped. Check kernel log
 if device is properly removed:
 
-`smart_clock: controls unloaded`
+>smart_clock: controls unloaded
 
-`smart_clock: sensors unloaded`
+>smart_clock: sensors unloaded
 
-`smart_clock: gpio_button: device exit`
+>smart_clock: gpio_button: device exit
 
-`smart_clock: st7735fb: exiting`
+>smart_clock: st7735fb: exiting
 
-`smart_clock: st7735fb: unloaded`
+>smart_clock: st7735fb: unloaded
 
-`[smart_clock: module unloaded`
+>smart_clock: module unloaded
 
 ---
 
@@ -238,7 +248,7 @@ if device is properly removed:
 
 **2. User manual**
 
-** Main functions:**
+**2.1 Main functions:**
 
 **Smart clock is designed to work as simple smart-watch with
 entertainment part. Functions:**
