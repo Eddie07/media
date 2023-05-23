@@ -12,9 +12,9 @@
 
 [**1.3. Disable time synchronization on Raspberry.**](#sync_dis)
 
-**1.4. Module installation.**
+[**1.4. Module installation.**](#mod_inst)
 
-**1.5. Removing the module from memory**
+[**1.5. Removing the module from memory**](#mod_rem)
 
 
 **2. User manual**
@@ -79,8 +79,7 @@ SCL -\> SCL1 i2c (pin 5)
 SDA -\> SDA1 i2c (pin 3)
 
 &nbsp;
-&nbsp;
-&nbsp;
+
 &nbsp;
 
 __Connect mpu6050 sensor (I2C):__
@@ -96,7 +95,6 @@ SDA -\> SDA1 i2c (pin 3)
 
 AD0 -\> 3,3v (pin 1)
 
-&nbsp;
 &nbsp;
 
 __Connect rtc3231 (w/o eeprom) (I2C):__
@@ -121,17 +119,14 @@ Pin1 -\> 3,3v (pin 1)
 
 Pin2 -\> GPIO_17 (pin 11)
 
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 <a name="config">
 </a>
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 
 **2. Enable SPI, I2C and DTBO in Raspberry config:**
 
@@ -159,9 +154,12 @@ connected to network.
 We need to disable it, because time we use from rtc clock.
 
 `sudo systemctl stop systemd-timesyncd`
+
 `sudo systemctl disable systemd-timesyncd`
 
-4.  **Module installation**
+<a name="mod_inst">
+</a>
+**4. Module installation**
 
 Building the Module as device-tree overlay:
 
@@ -177,35 +175,35 @@ Inserting into your kernel:
 
 Command:
 
-[sudo insmod smart_clock.ko]{.mark}
+`sudo insmod smart_clock.ko`
 
 Check kernel log if device is properly booted:
 
-[smart_clock: smart_clock: Major = 238 Minor = 0]{.mark}
+`smart_clock: smart_clock: Major = 238 Minor = 0`
 
-[smart_clock: gpio_button: found gpio #17 value in DT]{.mark}
+`smart_clock: gpio_button: found gpio #17 value in DT`
 
-[smart_clock: st7735fb: init]{.mark}
+`smart_clock: st7735fb: init`
 
-[smart_clock: st7735fb: probe started]{.mark}
+`smart_clock: st7735fb: probe started`
 
-[st7735fb spi0.0: SPI ok]{.mark}
+`st7735fb spi0.0: SPI ok`
 
-[smart_clock: st7735fb: Total vm initialized 40960]{.mark}
+`smart_clock: st7735fb: Total vm initialized 40960`
 
-[smart_clock: bmp280: probing]{.mark}
+`smart_clock: bmp280: probing`
 
-[smart_clock: bmp280: probed]{.mark}
+`smart_clock: bmp280: probed`
 
-[smart_clock: ds3231: probing]{.mark}
+`smart_clock: ds3231: probing`
 
-[smart_clock: ds3231: probed]{.mark}
+`smart_clock: ds3231: probed`
 
-[smart_clock: ds3231: set time of the day from RTC result 0]{.mark}
+`smart_clock: ds3231: set time of the day from RTC result 0`
 
-[smart_clock: mpu6050: probing]{.mark}
+`smart_clock: mpu6050: probing`
 
-[smart_clock: mpu6050: probed]{.mark}
+`smart_clock: mpu6050: probed`
 
 *if some of devices will fail to start, you will get the message with
 hardware name: probe failed. Check hardware connection or config.txt*
@@ -214,6 +212,8 @@ hardware name: probe failed. Check hardware connection or config.txt*
 is not activated or battery is too low, once you setup clock or alarm
 this will be fixed automatically.*
 
+<a name="mod_rem">
+</a>
 1.  **Remove the module from memory**
 
 Command:
