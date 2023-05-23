@@ -5,9 +5,9 @@
 **Contents:**
 
 
-[Specification](#specification) 
+[Specificat](#specification) 
 
-**1.1 Hardware connection to Raspberry 40 pin extension.**
+[**1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
 
 **1.2. Enable SPI, I2C and DTBO in Raspberry config.**
 
@@ -44,7 +44,9 @@
 
 **1.Device installation**
 
+<a name="hw_conn">
 1.  **Hardware connection to Raspberry 40 pin extension:**
+</a>
 
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/display_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
