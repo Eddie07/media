@@ -2,7 +2,7 @@
 
 **Kernel device manual**
 
-**Contents:*
+**Contents:**
 
 
 [**1.1 Hardware connection to Raspberry 40 pin extension.**](#hw_conn)
@@ -44,6 +44,7 @@
 
 <a name="hw_conn">
 </a>
+
 **Hardware connection to Raspberry 40 pin extension:**
 
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/display_connection.png?raw=true" align="right" height="250" width="350" ></a>
