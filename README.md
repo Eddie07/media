@@ -54,7 +54,7 @@
 
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/display_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
-__Connect TFT Module (SPI):__
+#### __Connect TFT Module (SPI):__
 
 VDD3.3-\> 3,3v (pin 1)
 
@@ -72,7 +72,7 @@ GND -\> GROUND (pin 25)
 
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/bmp280_connection.png?raw=true" align="right" height="240" width="350" ></a>
 
-__Connect bmp280 sensor (I2C):__
+#### __Connect bmp280 sensor (I2C):__
 
 VIN -\> 3,3v (pin 1)
 
@@ -86,7 +86,7 @@ SDA -\> SDA1 i2c (pin 3)
 
 &nbsp;
 
-__Connect mpu6050 sensor (I2C):__
+#### __Connect mpu6050 sensor (I2C):__
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/mpu6050_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
 VCC-\> 3,3v (pin 1)
@@ -101,7 +101,7 @@ AD0 -\> 3,3v (pin 1)
 
 &nbsp;
 
-__Connect rtc3231 (w/o eeprom) (I2C):__
+#### __Connect rtc3231 (w/o eeprom) (I2C):__
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/rtc3231_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
 \+   -\> 3,3v (pin 1)
@@ -116,7 +116,7 @@ D -\> SDA1 i2c (pin 3)
 
 &nbsp;
 
-__Connect hardware button (2 pin):__
+#### __Connect hardware button (2 pin):__
 <a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/button_connection.png?raw=true" align="right" height="250" width="350" ></a>
 
 Pin1 -\> 3,3v (pin 1)
@@ -132,7 +132,7 @@ Pin2 -\> GPIO_17 (pin 11)
 <a name="config">
 </a>
 
-**1.2. Enable SPI, I2C and DTBO in Raspberry config:**
+### 1.2. Enable SPI, I2C and DTBO in Raspberry config:
 
 you can enable SPI, I2C from the **/boot/config.txt** file. Open a
 terminal window and enter:
@@ -150,7 +150,7 @@ Reboot your Pi.
 <a name="sync_dis">
 </a>
 
-**1.3. Disable time synchronization on Raspberry.**
+### 1.3. Disable time synchronization on Raspberry.
 
 By default, Raspberry is using time-synchronization service while
 connected to network.
@@ -164,7 +164,7 @@ We need to disable it, because time we use from rtc clock.
 <a name="mod_inst">
 </a>
 
-**1.4. Module installation**
+### 1.4. Module installation
 
 Building the Module and device-tree overlay:
 
@@ -220,7 +220,7 @@ this will be fixed automatically.*
 <a name="mod_rem">
 </a>
 
-**1.5 Remove the module from memory**
+### 1.5 Remove the module from memory
 
 Command:
 
@@ -246,12 +246,12 @@ if device is properly removed:
 <a name="uman">
 </a>
 
-**2. User manual**
+##2. User manual
 
-**2.1 Main functions:**
+### 2.1 Main functions:
 
-**Smart clock is designed to work as simple smart-watch with
-entertainment part. Functions:**
+#### Smart clock is designed to work as simple smart-watch with
+entertainment part. Functions:
 
 -Time
 
@@ -269,7 +269,7 @@ entertainment part. Functions:**
 
 -Display BMP files (2.1.7)
 
-**Customization is also possible through options:**
+#### Customization is also possible through options:**
 
 -24h or AM/PM
 
@@ -277,7 +277,7 @@ entertainment part. Functions:**
 
 -Enable or disable the Alarm
 
-**Functions are controlled by one button:**
+#### Functions are controlled by one button:**
 
 -click (Short press)
 
@@ -288,7 +288,7 @@ entertainment part. Functions:**
 <a name="clock_time">
 </a>
 
-**2.1.1. Time**
+#### 2.1.1. Time
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/clock_24.png?raw=true)    ![](https://github.com/Eddie07/media/blob/main/blob/media/clock_am.png?raw=true)
 
@@ -319,7 +319,7 @@ Use long click to switch mode to next mode: **Timer**
 <a name="clock_timer">
 </a>
 
-**2.1.2. Timer**
+#### 2.1.2. Timer
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/timer.png?raw=true) 
 
@@ -337,7 +337,7 @@ Switch to the next view **Alarm** press long press button.
 <a name="clock_alarm">
 </a>
 
-**2.1.3. Alarm**
+#### 2.1.3. Alarm
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/alarm.png?raw=true)
 
@@ -362,7 +362,7 @@ stored in rtc.*
 <a name="clock_tp">
 </a>
 
-**2.1.4. Temperature and air pressure.**
+#### 2.1.4. Temperature and air pressure.
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/temp_press.png?raw=true) ![](https://github.com/Eddie07/media/blob/main/blob/media/temp_f.png?raw=true)
 
@@ -373,7 +373,7 @@ Switch the next view **Pedometer** press long-press button.
 <a name="clock_pedom">
 </a>
 
-**2.1.5. Pedometer.**
+#### 2.1.5. Pedometer.
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/pedometer.png?raw=true)
 
@@ -387,7 +387,7 @@ Switch the next view **Game** press long-press button.
 <a name="clock_game">
 </a>
 
-**2.1.6. Game**
+#### 2.1.6. Game
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/game.png?raw=true)
 
@@ -407,7 +407,7 @@ Switch the next view **Options** press long-press button.
 <a name="clock_options">
 </a>
 
-**2.1.7. Options**
+#### 2.1.7. Options
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/options.png?raw=true)
 
@@ -425,7 +425,7 @@ automatically stored in rtc.*
 <a name="clock_rbmp">
 </a>
 
-**2.1.8. Making of screenshot (BMP format)**
+#### 2.1.8. Making of screenshot (BMP format)
 
 Use terminal in your Raspberry to type the command:
 
@@ -442,7 +442,7 @@ It will create new file screen.bmp with the screenshot from your device.
 <a name="clock_wbmp">
 </a>
 
-**2.1.9. Display BMP files.**
+#### 2.1.9. Display BMP files.
 
 Use terminal in your Raspberry to print to device the command:
 
@@ -456,7 +456,7 @@ Otherwise, you will receive the error message.*
 <a name="clock_notif">
 </a>
 
-**2.1.9. Notifications bar.**
+#### 2.1.9. Notifications bar.
 
 ![](https://github.com/Eddie07/media/blob/main/blob/media/notif.png?raw=true)
 
