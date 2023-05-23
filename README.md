@@ -278,7 +278,7 @@ entertainment part. Functions:**
 
 **2.1.1. Time**
 
-![](https://github.com/Eddie07/media/blob/main/blob/media/clock24.tiff?raw=true)  |  ![](https://github.com/Eddie07/media/blob/main/blob/media/clock_am.tiff?raw=true)
+![](https://github.com/Eddie07/media/blob/main/blob/media/clock24.png?raw=true)  |  ![](https://github.com/Eddie07/media/blob/main/blob/media/clock_am.png?raw=true)
 
 Hold the button longer than 1 sec to enter first view mode.
 
