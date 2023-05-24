@@ -1,11 +1,10 @@
+---
+
 <h2 style="text-align: center;">SMART-CLOCK</h2>
 
-<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/device.jpg?raw=true" align="right" height="600" width="800" ></a>
-					
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/device.jpg?raw=true" align="center" height="600" width="600" ></a>	
 
-**Kernel device manual**
-
----
+# Kernel device manual
 
 **Contents:**
 
