@@ -1,4 +1,7 @@
-<h2 style="text-align: center;">SMART-CLOCK</h2>					
+<h2 style="text-align: center;">SMART-CLOCK</h2>
+
+<a href="url"><img src="https://github.com/Eddie07/media/blob/main/blob/media/device.jpg?raw=true" align="right" height="600" width="800" ></a>
+					
 
 **Kernel device manual**
 
@@ -397,7 +400,7 @@ to get file stream of bmp image of your current screen.
 
 Example:
 
-`cat dev/smart-clock > screen.bmp`
+`cat dev/smart_clock > screen.bmp`
 
 It will create new file screen.bmp with the screenshot from your device.
 
@@ -405,7 +408,7 @@ It will create new file screen.bmp with the screenshot from your device.
 
 Use terminal in your Raspberry to print to device the command:
 
-`cat screen.bmp > dev/smart-clock`
+`cat screen.bmp > dev/smart_clock`
 
 The file will be displayed on screen.
 
